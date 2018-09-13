@@ -1,0 +1,53 @@
+{
+  "objectName" : "asterseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A fascinating mutant flower.",
+  "shortdescription" : "Aster Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "A rather beautiful flower for a mutant.",
+  "avianDescription" : "Some say eating these makes you lucky.",
+  "floranDescription" : "Lucky purple flower!",
+  "glitchDescription" : "Doubt. There's no such thing as luck.",
+  "humanDescription" : "My mom used to grow these in her garden... the normal ones anyway.",
+  "hylotlDescription" : "A symbol of beauty within the most hideous of wastelands.",
+  "novakidDescription" : "Yeehaw! Today's my lucky day!",
+
+  "inventoryIcon" : "asterseedicon.png",
+  
+  "tooltipKind" : "seed",
+  "largeImage" : "asterseed.png:default.3.0",
+  
+  "orientations" : [
+    {
+      "dualImage" : "asterseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "asterHarvest",
+	  "resetToStage" : 0
+    }
+  ],
+  
+  "maxImmersion" : 0.25
+}

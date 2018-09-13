@@ -1,0 +1,55 @@
+{
+  "objectName" : "tarberryseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A mutated species of the cranberries.",
+  "shortdescription" : "Tarberry Kit",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "I wonder if this still tastes the same.",
+  "avianDescription" : "What's in this barrel?",
+  "floranDescription" : "Berriesss floating in dirty barrel...",
+  "glitchDescription" : "Observation. Despite years of radiation set on these plants they mainly stayed the same...",
+  "humanDescription" : "Never thought of growing plants in a dirty barrel.",
+  "hylotlDescription" : "Some of these would sink down onto some cities.",
+  "novakidDescription" : "Who threw these berries in to this 'ere barrel?",
+
+  "inventoryIcon" : "tarberryseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "tarberry.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "tarberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "tarberryHarvest",
+      "resetToStage" : 1
+    }
+  ]
+}

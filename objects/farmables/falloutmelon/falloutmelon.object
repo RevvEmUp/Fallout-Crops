@@ -1,0 +1,57 @@
+{
+  "objectName" : "falloutmelonseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "An irradiated watermelon.",
+  "shortdescription" : "Melon Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 24,
+
+  "apexDescription" : "It looks diseased.",
+  "avianDescription" : "There's a strong smell coming from this one.",
+  "floranDescription" : "Sssmelly melonsss.",
+  "glitchDescription" : "Observation. This watermelon is irradiated.",
+  "humanDescription" : "Not gonna find this in a salad.",
+  "hylotlDescription" : "Some say these were used in the early creation of Rose Harengus.",
+  "novakidDescription" : "This watermelon looks funny.",
+
+  "inventoryIcon" : "falloutmelonseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "falloutmelonseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "falloutmelonseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [585, 585]
+    },
+    {
+      "duration" : [585, 585]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "falloutmelonHarvest",
+	  "resetToStage" : 1
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

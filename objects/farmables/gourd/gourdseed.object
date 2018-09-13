@@ -1,0 +1,56 @@
+{
+  "objectName" : "gourdseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "description" : "A mutant pumpkin.",
+  "category" : "seed",
+  "shortdescription" : "Gourd Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 24,
+
+  "apexDescription" : "Aside from the radiaiton, this is otherwise normal.",
+  "avianDescription" : "I wouldn't roast these seeds.",
+  "floranDescription" : "Floran no sssmash pumpkin!",
+  "glitchDescription" : "Concerned. Vines should not be gray.",
+  "humanDescription" : "It's almost like Halloween... almost.",
+  "hylotlDescription" : "I've never seen a pumpkin so hideous.",
+  "novakidDescription" : "This here is the most sad lookin' fruit I've ever seen.",
+
+  "inventoryIcon" : "gourdseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "gourdseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "gourdseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "gourdHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

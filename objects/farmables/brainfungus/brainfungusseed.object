@@ -1,0 +1,57 @@
+{
+  "objectName" : "brainfungusseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "I ain't touching these.",
+  "shortdescription" : "Brain Fungus Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 24,
+
+  "apexDescription" : "I bet the Minikog did this.",
+  "avianDescription" : "What a strange mushroom.",
+  "floranDescription" : "Floran brainsss.",
+  "glitchDescription" : "Observation. This fungus resemble the cosmetic brains some Glitch wear.",
+  "humanDescription" : "Who put this alien brain here?.",
+  "hylotlDescription" : "I'd like to analyse this.",
+  "novakidDescription" : "This shroom looks like a headnoodle.",
+
+  "inventoryIcon" : "brainfungusseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "brainfungusseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "brainfungusseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "brainfungusHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  
+  "maxImmersion" : 0.25
+}

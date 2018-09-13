@@ -1,0 +1,52 @@
+{
+  "objectName" : "hubflowerseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A flower so severely mutated that the ancestors are untracable.",
+  "shortdescription" : "Hubflower Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  "price" : 20,
+  
+  "apexDescription" : "These have been deemed illegal by the Minknog.",
+  "avianDescription" : "These have been used as recreational drugs to communicate with Kluex.",
+  "floranDescription" : "Plant make head go funny.",
+  "glitchDescription" : "Observation. This flower is mutated to the point it's become their own species.",
+  "humanDescription" : "These are some weird looking roses. Smell we-IS THAT BIGFOOT?!",
+  "hylotlDescription" : "Despite looking nice, they are banned in most cities. Most.",
+  "novakidDescription" : "I feel funny.",
+
+  "inventoryIcon" : "hubflowerseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hubflowerseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [150, 250]
+    },
+    {
+      "duration" : [250, 500]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "hubflowerHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

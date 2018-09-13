@@ -1,0 +1,61 @@
+{
+  "objectName" : "mutfruitseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A mutant... apple?.",
+  "shortdescription" : "Mutfruit Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 32,
+
+  "apexDescription" : "How much life does the Minikog have to corrupt to get their way?",
+  "avianDescription" : "A purple apple?",
+  "floranDescription" : "Ssstrange blue fruitsss.",
+  "glitchDescription" : "Danger. High levels of radiation detected.",
+  "humanDescription" : "Maybe if I cut it into slices it wouldn't taste so bad.",
+  "hylotlDescription" : "I doubt this tastes good.",
+  "novakidDescription" : "I ain't eatin this... maybe.",
+
+  "inventoryIcon" : "mutfruiticon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "mutfruitseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "mutfruitseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1740, 1860]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "mutfruitHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

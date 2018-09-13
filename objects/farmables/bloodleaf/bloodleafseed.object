@@ -1,0 +1,56 @@
+{
+  "objectName" : "bloodleafseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A mutated flower from the waters of irradiated coasts.",
+  "shortdescription" : "Bloodleaf Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "I wonder if this is edible?",
+  "avianDescription" : "These look... darker than the ones i've seen before on Earth.",
+  "floranDescription" : "Ssstrange water plant...",
+  "glitchDescription" : "Observation. Despite years of radiation set on these plants they mainly stayed the same.",
+  "humanDescription" : "Wasn't this in some old video game that involved Boston?",
+  "hylotlDescription" : "Ive seen these as shadows being cast on some Hylotl cities.",
+  "novakidDescription" : "I seriously don't know what to make of this thing.",
+
+
+  "inventoryIcon" : "bloodleafseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "bloodleafseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "bloodleafseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "bloodleafHarvest",
+      "resetToStage" : 1
+    }
+  ]
+}

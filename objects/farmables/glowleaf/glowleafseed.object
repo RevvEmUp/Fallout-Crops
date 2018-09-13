@@ -1,0 +1,60 @@
+{
+  "objectName" : "glowleafseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "It's like, from another universe.",
+  "shortdescription" : "Glowleaf Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+  "lightColor" : [0, 255, 255],
+  "soundEffect" : "/sfx/objects/glowleaf.ogg",
+  "soundEffectRadius" : 15,
+
+  "apexDescription" : "Strange plant, it wants me to notice it.",
+  "avianDescription" : "Reminds me of the stars.",
+  "floranDescription" : "Thisss plant mussst be sssilenced!",
+  "glitchDescription" : "Observation. This plant gives off sound from an unknown organ.",
+  "humanDescription" : "This is just Nirnroot, but blue.",
+  "hylotlDescription" : "What a beautiful plant.",
+  "novakidDescription" : "It's like me, but as a plant.",
+
+
+  "inventoryIcon" : "glowleafseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "glowleafseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "imageLayers" : [{ "image" : "glowleafseed.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "glowleafseedlit.png:<color>.<stage>.<alt>"}],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "glowleafHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

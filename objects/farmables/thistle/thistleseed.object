@@ -1,0 +1,59 @@
+{
+  "objectName" : "thistleseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A fascinating mutant flower.",
+  "shortdescription" : "Thistle Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "What is that horrendous smell?",
+  "avianDescription" : "I've been told to keep away from these.",
+  "floranDescription" : "Flower spits cloudsss...",
+  "glitchDescription" : "Danger. High levels of radiation detected.",
+  "humanDescription" : "Did that plant just fart?",
+  "hylotlDescription" : "This flower defends itself by expelling a radioactive cloud. Interesting.",
+  "novakidDescription" : "Heh, fartin' plant.",
+
+  "inventoryIcon" : "thistleseedicon.png",
+  
+  "tooltipKind" : "seed",
+  "largeImage" : "thistleseed.png:default.2.0",
+  
+  "orientations" : [
+    {
+      "dualImage" : "thistleseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [300, 400]
+    },
+    {
+      "duration" : [300, 400]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "thistleHarvest",
+	  "resetToStage" : 0
+    }
+  ],
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+            "damage" : 8,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "poison"
+          },
+    "maxImmersion" : 0.25
+}

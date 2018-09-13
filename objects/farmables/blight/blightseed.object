@@ -1,0 +1,54 @@
+{
+  "objectName" : "blightseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A kit to grow Blight mushrooms.",
+  "shortdescription" : "Blight Kit",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "These don't look radioactive to me.",
+  "avianDescription" : "A log with some mushrooms on it.",
+  "floranDescription" : "Mutant Floran hatsss.",
+  "glitchDescription" : "Danger. This fungus does appear to be corrosive to Glitch.",
+  "humanDescription" : "Reminds me of when I used to stomp on mushrooms as a kid.",
+  "hylotlDescription" : "A small, barely edible mushroom.",
+  "novakidDescription" : "That's a weird lookin' log.",
+
+  "inventoryIcon" : "blightseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "blightseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "blightseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "blightHarvest"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "siltbeanseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Mutant green beans.",
+  "shortdescription" : "Silt Bean Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 24,
+
+  "apexDescription" : "Years of radiation has stunted the growth of these beans.",
+  "avianDescription" : "I like beans, but these are an exception.",
+  "floranDescription" : "Ssshort bean plantsss.",
+  "glitchDescription" : "Concerned. These beans look very short.",
+  "humanDescription" : "You can make post-apocalyptic baked beans!",
+  "hylotlDescription" : "This does not look appetizing.",
+  "novakidDescription" : "Irradiated chili, anyone?",
+
+  "inventoryIcon" : "siltbeanicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "siltbean.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "siltbean.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "siltbeanHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.17
+}
