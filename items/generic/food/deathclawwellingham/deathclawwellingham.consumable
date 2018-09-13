@@ -1,0 +1,15 @@
+{
+  "itemName" : "deathclawwellingham",
+  "rarity" : "Uncommon",
+  "price" : 120,
+  "category" : "preparedFood",
+  "inventoryIcon" : "deathclawwellingham.png",
+  "description" : "Congratulations for making this.",
+  "shortdescription" : "Deathclaw Wellingham",
+  "foodValue" : 120,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
