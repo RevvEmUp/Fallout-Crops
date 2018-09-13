@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "lureweed", "count" : 1 },
+    { "item" : "rawribmeat", "count" : 1 }
+  ],
+  "output" : { "item" : "yaoguairoast", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

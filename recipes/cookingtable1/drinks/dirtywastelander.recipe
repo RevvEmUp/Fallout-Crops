@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mutfruit", "count" : 1 },
+    { "item" : "soda", "count" : 1 },
+	{ "item" : "cyanider", "count" : 1 }
+  ],
+  "output" : { "item" : "dirtywastelander", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

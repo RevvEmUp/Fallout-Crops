@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "gourd", "count" : 1 },
+    { "item" : "alienmeat", "count" : 1 },
+	{ "item" : "siltbean", "count" : 1 },
+	{ "item" : "cyanider", "count" : 1 }
+  ],
+  "output" : { "item" : "radstagstew", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

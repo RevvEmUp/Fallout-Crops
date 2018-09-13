@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "aster", "count" : 1 },
+    { "item" : "blackbloodleaf", "count" : 1 },
+	{ "item" : "blight", "count" : 1 },
+	{ "item" : "lureweed", "count" : 1 },
+	{ "item" : "alienmeat", "count" : 1 }
+  ],
+  "output" : { "item" : "rabbitskewer", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

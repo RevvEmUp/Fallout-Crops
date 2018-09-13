@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "glowleaf", "count" : 1 },
+    { "item" : "swampwater", "count" : 1 }
+  ],
+  "output" : { "item" : "glowleaftea", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "redstim", "count" : 1 },
+    { "item" : "soda", "count" : 1 },
+	{ "item" : "fruit", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "superredstim",
+    "count" : 1
+  },
+  "groups" : [ "plain", "craftingmedical", "healing" ]
+}

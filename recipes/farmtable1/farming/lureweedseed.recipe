@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "metalbarrel1", "count" : 1 },
+    { "item" : "liquidwater", "count" : 6 },
+    { "item" : "lureweed", "count" : 1 } 
+  ],
+  "output" : {
+    "item" : "lureweedseed",
+    "count" : 1
+  },
+  "groups" : [ "craftingfarm", "farming" ]
+}

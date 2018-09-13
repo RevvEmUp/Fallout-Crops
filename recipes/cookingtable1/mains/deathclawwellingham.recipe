@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "eggfossil", "count" : 1 },
+    { "item" : "swampwater", "count" : 1 },
+	{ "item" : "tato", "count" : 1 }
+  ],
+  "output" : { "item" : "deathclawwellingham", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

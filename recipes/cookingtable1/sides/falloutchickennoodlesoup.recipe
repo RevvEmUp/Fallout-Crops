@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "blackbloodleaf", "count" : 1 },
+    { "item" : "carrot", "count" : 1 },
+	{ "item" : "rawpoultry", "count" : 1 },
+	{ "item" : "swampwater", "count" : 1 }
+  ],
+  "output" : { "item" : "falloutchickennoodlesoup", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "rawfish", "count" : 2 },
+	{ "item" : "tarberry", "count" : 2 }
+  ],
+  "output" : { "item" : "mirelurkjerky", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

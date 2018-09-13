@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bloodleaf", "count" : 1 },
+    { "item" : "carrot", "count" : 1 },
+	{ "item" : "swampwater", "count" : 2 },
+	{ "item" : "alienmeat", "count" : 1 },
+	{ "item" : "tato", "count" : 1 }
+  ],
+  "output" : { "item" : "squirrelstew", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}
