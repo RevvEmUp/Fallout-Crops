@@ -1,0 +1,22 @@
+{
+  "itemName" : "dirtywastelander",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "drink",
+  "inventoryIcon" : "dirtywastelander.png",
+  "description" : "I hope I don't die drinking this.",
+  "shortdescription" : "Dirty Wastelander",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}
