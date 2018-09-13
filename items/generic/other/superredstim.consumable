@@ -1,0 +1,19 @@
+{
+  "itemName" : "superredstim",
+  "rarity" : "Rare",
+  "price" : 900,
+  "category" : "medicine",
+  "inventoryIcon" : "superredstim.png",
+  "description" : "Remember, too much of a good thing is bad for you",
+  "shortdescription" : "Super Stimpak",
+  "effects" : [ [
+      {
+        "effect" : "superredstimheal"
+      },
+	  {
+        "effect" : "weakpoison",
+        "duration" : 9
+    }
+    ] ],
+  "emitters" : [ "stimuse" ]
+}
