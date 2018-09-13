@@ -1,0 +1,22 @@
+{
+  "itemName" : "hubflower",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "ashblossomicon.png",
+  "description" : "Large hanging purple flower. Bitter, but appears to have some restorative benefits.",
+  "shortdescription" : "Hubflower",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 2
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

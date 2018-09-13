@@ -1,0 +1,21 @@
+{
+  "itemName" : "mirelurkjerky",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "mirelurkjerky.png",
+  "description" : "Tastes foul as sin, but it'll help.",
+  "shortdescription" : "Mirelurk Jerky",
+  "effects" : [ [
+    {
+        "effect" : "poisonblock",
+        "duration" : 15
+    }
+  ] ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

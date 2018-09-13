@@ -1,0 +1,27 @@
+{
+  "itemName" : "glowleaf",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "glowleaficon.png",
+  "description" : "An otherworldly herb.",
+  "shortdescription" : "Glowleaf",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    },
+	{
+        "effect" : "electricblock",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "glowleaftea" ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "thistle",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "thistleicon.png",
+  "description" : "You just saw this fart. Are you seriously gonna eat this?",
+  "shortdescription" : "Thistle",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

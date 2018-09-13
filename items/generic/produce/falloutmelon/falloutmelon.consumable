@@ -1,0 +1,22 @@
+{
+  "itemName" : "falloutmelon",
+  "rarity" : "Common",
+  "price" : 6,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "falloutmelon.png",
+  "description" : "A slice of radioactive watermelon.",
+  "shortdescription" : "Melon",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 3
+    }
+    ] ],
+  "foodValue" : 6,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

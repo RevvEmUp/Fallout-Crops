@@ -1,0 +1,16 @@
+{
+  "itemName" : "squirrelstew",
+  "rarity" : "Common",
+  "price" : 24,
+  "category" : "preparedFood",
+  "inventoryIcon" : "squirrelstew.png",
+  "description" : "It's a stew... made with squirrels.",
+  "shortdescription" : "Squirrel Stew",
+  "foodValue" : 24,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

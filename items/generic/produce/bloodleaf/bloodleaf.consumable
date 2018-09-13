@@ -1,0 +1,23 @@
+{
+  "itemName" : "bloodleaf",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "bloodleaficon.png",
+  "description" : "An irradiated aquatic flower.",
+  "shortdescription" : "Bloodleaf",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 2
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "squirrelstew" ]
+}

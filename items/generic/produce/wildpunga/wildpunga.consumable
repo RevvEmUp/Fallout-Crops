@@ -1,0 +1,17 @@
+{
+  "itemName" : "wildpunga",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "wildpunga.png",
+  "description" : "A mutated citrus. Tastes a little funny.",
+  "shortdescription" : "Wild Punga Fruit",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "fuelAmount" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

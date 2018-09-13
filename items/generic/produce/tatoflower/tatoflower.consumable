@@ -1,0 +1,22 @@
+{
+  "itemName" : "tatoflower",
+  "rarity" : "Common",
+  "price" : 7,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "tatoflowericon.png",
+  "description" : "A flower from a tato plant. Who eats flowers anyway?",
+  "shortdescription" : "Tato Flower",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 7,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

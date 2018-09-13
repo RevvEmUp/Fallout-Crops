@@ -1,0 +1,22 @@
+{
+  "itemName" : "falloutvegetablesoup",
+  "rarity" : "Common",
+  "price" : 13,
+  "category" : "preparedFood",
+  "inventoryIcon" : "falloutvegetablesoup.png",
+  "description" : "A nice, simple... what's that floating there?",
+  "shortdescription" : "Vegetable Soup",
+  "effects" : [ [
+    {
+        "effect" : "poisonblock",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 13,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

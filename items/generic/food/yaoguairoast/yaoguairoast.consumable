@@ -1,0 +1,21 @@
+{
+  "itemName" : "yaoguairoast",
+  "rarity" : "Uncommon",
+  "price" : 110,
+  "category" : "food",
+  "inventoryIcon" : "yaoguiroast.png",
+  "description" : "Where do the tatos come in?",
+  "shortdescription" : "Yao Guai Roast",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 3600
+    }
+  ] ],
+  "foodValue" : 110,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

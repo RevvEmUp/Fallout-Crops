@@ -1,0 +1,21 @@
+{
+  "itemName" : "glowleaftea",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "drink",
+  "inventoryIcon" : "glowleaftea.png",
+  "description" : "I probably shouldn't drink this.",
+  "shortdescription" : "Glowleaf Tea",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 200
+    }
+  ] ],
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

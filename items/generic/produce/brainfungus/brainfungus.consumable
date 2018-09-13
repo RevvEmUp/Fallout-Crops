@@ -1,0 +1,22 @@
+{
+  "itemName" : "brainfungus",
+  "rarity" : "Common",
+  "price" : 6,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "brainfungusicon.png",
+  "description" : "Gross. Just, gross.",
+  "shortdescription" : "Brain Fungus",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 3
+    }
+  ] ],
+  "foodValue" : 6,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "lureweed",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "lureweedicon.png",
+  "description" : "A lure grown from mutant lily pads.",
+  "shortdescription" : "Lure Weed",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 2
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "rabbitskewer", "wolfribs" ]
+}

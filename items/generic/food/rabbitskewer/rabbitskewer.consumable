@@ -1,0 +1,15 @@
+{
+  "itemName" : "rabbitskewer",
+  "rarity" : "Common",
+  "price" : 15,
+  "category" : "preparedFood",
+  "inventoryIcon" : "rabbitskewer.png",
+  "description" : "Mmm... tastes like guilt.",
+  "shortdescription" : "Seasoned Rabbit Skewers",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

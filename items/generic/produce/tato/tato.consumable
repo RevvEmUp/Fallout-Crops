@@ -1,0 +1,23 @@
+{
+  "itemName" : "tato",
+  "rarity" : "Common",
+  "price" : 7,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "tatoicon.png",
+  "description" : "A hybrid of tomato and potato.",
+  "shortdescription" : "Tato",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 7,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "squirrelstew", "deathclawwellingham", "yaoguairoast" ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "feverblossom",
+  "rarity" : "Common",
+  "price" : 4,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "feverblossomicon.png",
+  "description" : "Smells like soda.",
+  "shortdescription" : "Fever Blossom",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 1
+    }
+  ] ],
+  "foodValue" : 4,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

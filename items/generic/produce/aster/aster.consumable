@@ -1,0 +1,23 @@
+{
+  "itemName" : "aster",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "astericon.png",
+  "description" : "A mutant flower.",
+  "shortdescription" : "Aster",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 2
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "rabbitskewer" ]
+}

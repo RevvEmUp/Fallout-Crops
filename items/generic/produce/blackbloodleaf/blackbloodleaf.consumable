@@ -1,0 +1,23 @@
+{
+  "itemName" : "blackbloodleaf",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "blackbloodleaficon.png",
+  "description" : "A variant of the Bloodleaf.",
+  "shortdescription" : "Black Bloodleaf",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 2
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "rabbitskewer", "chickennoodlesoup" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "radstagstew",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "preparedFood",
+  "inventoryIcon" : "radstagstew.png",
+  "description" : "Was it really necessary to put this in a can?",
+  "shortdescription" : "Radstag Stew",
+  "effects" : [ [
+      {
+        "effect" : "electricblock",
+        "duration" : 3600
+      }
+    ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

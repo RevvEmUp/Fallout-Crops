@@ -1,0 +1,22 @@
+{
+  "itemName" : "melonblossom",
+  "rarity" : "Common",
+  "price" : 6,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "melonblossomicon.png",
+  "description" : "A flower from a melon plant. Who eats flowers anyway?",
+  "shortdescription" : "Melon Blossom",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 3
+    }
+  ] ],
+  "foodValue" : 6,
+  "tooltipKind" : "food",
+  "maxStack" : 1000,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
