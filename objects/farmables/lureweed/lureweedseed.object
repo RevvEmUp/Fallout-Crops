@@ -26,7 +26,7 @@
 
   "orientations" : [
     {
-      "dualImage" : "lureweedseed.png:<color>.<stage>.<alt>",
+      "imageLayers" : [{ "image" : "lureweedseed.png:<color>.<stage>.<alt>", "fullbright" : true}, { "image" : "lureweedseedlit.png:<color>.<stage>.<alt>"}],
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
